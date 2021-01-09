@@ -2,7 +2,7 @@ Problem Statement:
 
  A Library Assistant is a self-billing system that can help in many book devices and shops, or any other self-billing policy.
  It is basically a system that deal with the current highly speed information processing movement, by dealing with each client easily and only once for each duration. Beside, keep tracing the total process and delete deponed in the user choice. 
-once the Bill printed all the data disappear except the total tracing. The idea of self-billing will reduce the effort , the time . 
+once the Bill printed all the data disappear except the total tracing. The idea of self-billing will reduce the effort, and time . 
 
 
 
