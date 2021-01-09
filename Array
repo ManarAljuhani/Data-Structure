@@ -1,0 +1,33 @@
+import java.util.*;
+import java.util.Scanner;
+public class LAB1{
+ static int search(ArrayList<Integer> Array, int length , int x) //Create a method to search
+into the arraylist
+ {
+ for (int i = 0; i < length; i++) { /*it will look into the arraylist index by index to find out
+if the key"x" is */
+ if (i == x) //if the index = the counter return the index
+ return i; }
+ return -1; } //Return -1 if the element doesn’t exist
+ public static void main() {
+ Scanner in = new Scanner(System.in); //new scanner objext
+ArrayList<Integer> LineArray = new ArrayList<Integer>(10);
+ for (int i = 0;i<11 ; i++) {
+ LineArray.add(i); } // inserts 10 values
+ System.out.println("The Original Array:"+ LineArray) ;
+ int length= LineArray.size(); //Assign the size to a variable
+ System.out.println(" First Enter Your Value Then Its Position:\n");
+ int value = in.nextInt();
+ int position = in.nextInt();
+ LineArray.add(position,value); //using the method add, add the value in its index
+ System.out.println();
+ System.out.println("after inserting new element: "+LineArray); //print the arraylist
+after inserting the new value
+ System.out.println();
+ System.out.println(" Enter The Value You Want To Delete:");//s
+ int target = in.nextInt(); //Assign the target value to a variable
+ int index = search(LineArray, length, target); //pass the argument to the method search
+then pass the index to the variable
+ LineArray.remove(index+1); //remove the index
+System.out.print("The Array after you deleted the number"+target+" " + LineArray);}
+}
