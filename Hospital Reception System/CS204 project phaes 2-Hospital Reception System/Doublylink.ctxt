@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Doublylink
+comment1.params=No\ Name\ Age\ NID\ phone
+comment1.target=Doublylink(int,\ java.lang.String,\ int,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=void\ displayLink()
+numComments=3
